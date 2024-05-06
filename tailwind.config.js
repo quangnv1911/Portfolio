@@ -10,8 +10,16 @@ module.exports = {
       },
       height:{
         '2-full': '200vh'
-      }
+      },
+      gridColumn: {
+        'span-20': 'span 20 / span 20',
+      },
+      fontFamily:{
+        'title': ['Poppins','sans-serif'],
+        'blur-title': ['Open Sans','YuGothic','sans-serif'],
+      },
     },
+    
   },
   plugins: [],
 }

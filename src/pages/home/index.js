@@ -2,7 +2,7 @@ function Home() {
 
 
   return (
-    <div className="grid grid-cols-12 mx-auto w-10/12 ">
+    <div className="grid-cols-12 grid w-5/6">
       <div className="col-span-4">
         <img src="/ịmg/profile-img.cb7c6e765e293aa071ac.jpg"/>
       </div>

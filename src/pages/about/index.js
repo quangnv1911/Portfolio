@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import { IoBriefcaseOutline } from "react-icons/io5";
 function About() {
 
 
@@ -94,26 +94,128 @@ function About() {
             </a>
           </div>
         </div>
-        <div className="skill">
-          <div className="flex ">
+        <div className="skill mb-[55px]">
+          <div className="flex mb-[32px] justify-center">
             <h3 className="text-[26px] font-bold uppercase mb-[24px] mt-[48px]">
-              Skill
+              My skills
             </h3>
 
           </div>
 
           <div className="flex flex-wrap">
-            <div className="">
-              <img src="/img/skill/html.png" alt="html" className="w-1/2 rounded-full bg-[#2b2a2a]" />
-              <span>HTML</span>
+            <div className="w-1/4 mb-[32px]">
+              <div className="rounded-full bg-[#2b2a2a] 
+              flex justify-center items-center
+              w-[120px] h-[120px] mx-auto my-auto mb-[12px]">
+                <img src="/img/skill/html.png" alt="html" className="w-1/2" />
+              </div>
+              <span className="uppercase font-bold">HTML</span>
             </div>
 
-            <div className="">
-              <img src="/img/skill/html.png" alt="html" className="w-1/2 rounded-full bg-[#2b2a2a]" />
-              <span>HTML</span>
+            <div className="w-1/4 mb-[32px]">
+              <div className="rounded-full bg-[#2b2a2a] 
+              flex justify-center items-center
+              w-[120px] h-[120px] mx-auto my-auto mb-[12px]">
+                <img src="/img/skill/html.png" alt="html" className="w-1/2" />
+              </div>
+              <span className="uppercase font-bold">HTML</span>
             </div>
+
+            <div className="w-1/4  mb-[32px]">
+              <div className="rounded-full bg-[#2b2a2a] 
+              flex justify-center items-center
+              w-[120px] h-[120px] mx-auto my-auto mb-[12px]">
+                <img src="/img/skill/html.png" alt="html" className="w-1/2" />
+              </div>
+              <span className="uppercase font-bold">HTML</span>
+            </div>
+
+            <div className="w-1/4  mb-[32px]">
+              <div className="rounded-full bg-[#2b2a2a] 
+              flex justify-center items-center
+              w-[120px] h-[120px] mx-auto my-auto mb-[12px]">
+                <img src="/img/skill/html.png" alt="html" className="w-1/2" />
+              </div>
+              <span className="uppercase font-bold">HTML</span>
+            </div>
+
+            <div className="w-1/4  mb-[32px]">
+              <div className="rounded-full bg-[#2b2a2a] 
+              flex justify-center items-center
+              w-[120px] h-[120px] mx-auto my-auto mb-[12px]">
+                <img src="/img/skill/html.png" alt="html" className="w-1/2" />
+              </div>
+              <span className="uppercase font-bold">HTML</span>
+            </div>
+
+
           </div>
         </div>
+
+        <div className="education pb-[55px]">
+          <div className="flex mb-[32px] justify-center">
+            <h3 className="text-[26px] font-bold uppercase mb-[24px] mt-[48px]">
+              Education
+            </h3>
+          </div>
+
+          <div className="flex justify-around">
+            <div className="flex justify-center relative mb-[50px]">
+              <div className="rounded-full bg-[#ffb400]
+              flex justify-center items-center w-[40px] h-[40px] z-[999]">
+                <IoBriefcaseOutline />
+              </div>
+              <div className="text-left ml-[16px] after:top-0 after:absolute
+              after:left-[20px] after:bottom-0 after:border-l after:border-solid after:border-[#333]">
+                <span className="uppercase font-bold color-[#fff] text-[12px]
+                pt-[1px] pr-[10px] pb-[1px] pl-[10px] mb-[12px]
+                bg-[#252525] opacity-80">
+                  2018 - Present
+                </span>
+
+                <h5 className="uppercase font-bold text-[18px]
+                mt-[7px] mx-[0px] mb-[10px]">
+                  Intern Developer
+                  <span className="opacity-80 font-semibold text-[15px] relative pl-[26px]">- Viettel ITD</span>
+                </h5>
+                <p className="color-[#eee] text-[14px] ">
+                  This is the company where i choose to start my work
+                </p>
+              </div>
+
+            </div>
+
+            <div className="flex justify-center relative mb-[50px]">
+              <div className="rounded-full bg-[#ffb400]
+              flex justify-center items-center w-[40px] h-[40px] z-[999]">
+                <IoBriefcaseOutline />
+              </div>
+              <div className="text-left ml-[16px] after:top-0 after:absolute
+              after:left-[20px] after:bottom-0 after:border-l after:border-solid after:border-[#333]">
+                <span className="uppercase font-bold color-[#fff] text-[12px]
+                pt-[1px] pr-[10px] pb-[1px] pl-[10px] mb-[12px]
+                bg-[#252525] opacity-80">
+                  2018 - Present
+                </span>
+
+                <h5 className="uppercase font-bold text-[18px]
+                mt-[7px] mx-[0px] mb-[10px]">
+                  Intern Developer
+                  <span className="opacity-80 font-semibold text-[15px] relative pl-[26px]">- Viettel ITD</span>
+                </h5>
+                <p className="color-[#eee] text-[14px] ">
+                  This is the company where i choose to start my work
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+          
+        </div>
+
+
       </div>
     </div >
   );

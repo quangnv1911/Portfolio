@@ -74,15 +74,6 @@ function About() {
             </div>
           </div>
           <div className="flex flex-wrap">
-            <a href="/resource/quangnv_CV.pdf" target="_blank" className="mr-[2rem]">
-              <button className="rounded-3xl border border-[#ffb400]
-            uppercase text-[15px]
-            px-[32px] py-[16px] 
-            flex
-            hover:cursor-pointer">View CV
-
-              </button>
-            </a>
             <a href="/resource/quangnv_CV.pdf" download={"true"}>
               <button className="rounded-3xl border border-[#ffb400]
             uppercase text-[15px]
@@ -123,7 +114,7 @@ function About() {
 
             <div className="w-1/4  mb-[32px]">
               <div className="rounded-full bg-[#2b2a2a] 
-              flex justify-center items-center
+              flex justify-center items-center 
               w-[120px] h-[120px] mx-auto my-auto mb-[12px]">
                 <img src="/img/skill/html.png" alt="html" className="w-1/2" />
               </div>
@@ -155,7 +146,7 @@ function About() {
         <div className="education pb-[55px]">
           <div className="flex mb-[32px] justify-center">
             <h3 className="text-[26px] font-bold uppercase mb-[24px] mt-[48px]">
-              Education
+            EXPERIENCE & EDUCATION
             </h3>
           </div>
 

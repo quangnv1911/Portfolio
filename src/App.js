@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
 
-      <div className='App bg-black h-full text-white text-center relative'>
+      <div className='App bg-black h-full min-h-screen text-white text-center relative font-title'>
         <div className='fixed right-4 top-[25px] 
         rounded-full bg-[#2b2a2a] flex justify-center items-center  w-[50px] h-[50px]
         hover:cursor-pointer z-[9999]

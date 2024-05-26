@@ -103,6 +103,9 @@ function Project() {
 
   }
 
+  if (!projectList) {
+    return null;
+  }
   return (
     <div className="w-4/5 m-auto">
       <header className="relative flex justify-center items-center pt-[75px]">
@@ -155,7 +158,7 @@ function Project() {
                  ">
                       <span className="translate-y-[-20px] group-hover:translate-y-0 transition duration-500 ease delay-0">{project.name}</span></h3>
                   </button>} modal>
-                    <ProjectPopup project = {project}/>
+                    <ProjectPopup project={project} />
                   </Popup>
                 </li>)
               else {

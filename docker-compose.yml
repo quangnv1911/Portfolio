@@ -1,0 +1,15 @@
+version: '2.24.6'
+services:
+    frontend:
+        image: quangnv1911/portfolio:v1
+        build:
+            context: .
+            dockerfile: Dockerfile
+        networks:
+            - dev   
+        ports:
+            - "83:83" 
+    
+networks:
+    dev:
+      driver: bridge

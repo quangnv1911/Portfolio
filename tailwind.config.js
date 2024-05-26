@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
+const withMT = require("@material-tailwind/react/utils/withMT");
+module.exports = withMT({
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
@@ -7,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         'pure-orange': '#ffb400',
+        'hsla-border': 'hsla(0,0%,100%,.1'
       },
       height:{
         '2-full': '200vh'
@@ -22,4 +24,4 @@ module.exports = {
     
   },
   plugins: [],
-}
+})

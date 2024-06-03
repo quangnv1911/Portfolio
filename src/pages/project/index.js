@@ -103,6 +103,7 @@ function Project() {
 
   }
 
+  const contentStyle = {width: '1200px'};
   if (!projectList) {
     return null;
   }
@@ -157,8 +158,10 @@ function Project() {
                  transition duration-500 ease delay-0
                  ">
                       <span className="translate-y-[-20px] group-hover:translate-y-0 transition duration-500 ease delay-0">{project.name}</span></h3>
-                  </button>} modal>
-                    <ProjectPopup project={project} />
+                  </button>} modal
+                  contentStyle={{ 
+                  }}>
+                    <ProjectPopup  project={project} />
                   </Popup>
                 </li>)
               else {

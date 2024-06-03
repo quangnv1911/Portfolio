@@ -79,7 +79,7 @@ function About() {
             uppercase text-[15px]
             px-[32px] py-[16px] 
             flex
-            hover:cursor-pointer">Download CV
+            hover:cursor-pointer hover:bg-[#ffb400]">Download CV
 
               </button>
             </a>
